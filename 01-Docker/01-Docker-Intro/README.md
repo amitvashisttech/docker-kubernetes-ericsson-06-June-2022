@@ -99,3 +99,74 @@
   139  docker images
   140  docker pull amitvashist7/apache-ex4:20200107
 ```
+
+
+er ps
+  152  docker ps -a
+  153  docker run -it ubuntu
+  154  docker ps
+  155  docker ps -a
+  156  docker ps
+  157  docker run -it ubuntu
+  158  docker ps
+  159  docker ps -a
+  160  docker ps -a
+  161  docker start jolly_mclean
+  162  docker ps
+  163  docker attach 10e60c254350
+  164  docker ps
+  165  docker stop jolly_mclean
+  166  docker ps
+  167  docker ps -a
+  168  docker start jolly_mclean
+  169  docker ps
+  170  docker inspect 10e60c254350
+  171  docker ps
+  172  docker ps -l
+  173  docker ps
+  174  docker ps -a
+  175  docker ps -q
+  176  docker ps
+  177  docker ps -qa
+  178  docker ps -ql
+  179  docker ps -qa
+  180  docker inspect --format '{{.Name}} {{.State.Running}} {{.NetworkSettings.IPAddress}}' $(docker ps -q)
+  181  docker inspect --format '{{.Name}} {{.State.Running}} {{.NetworkSettings.IPAddress}}' $(docker ps -qa)
+  182  ls
+  183  docker ps
+  184  docker inspect --format '{{.Name}} {{.State.Running}} {{.NetworkSettings.IPAddress}}' $(docker ps -qa)
+  185  docker kill jolly_mclean
+  186  docker ps
+  187  docker inspect --format '{{.Name}} {{.State.Running}} {{.NetworkSettings.IPAddress}}' $(docker ps -qa)
+  188  docker stop jolly_mclean
+  189  docker start jolly_mclean
+  190  docker inspect --format '{{.Name}} {{.State.Running}} {{.NetworkSettings.IPAddress}}' $(docker ps -qa)
+  191  history
+  192  docker ps
+  193  docker images
+  194  docker run -d --name web-app nginx
+  195  docker ps
+  196  docker run -itd --name test-n1 ubuntu
+  197  docker ps
+  198  docker run -d --name test-n2 ubuntu
+  199  docker ps
+  200  docker ps -a
+  201  docker attach test-n1
+  202  docker ps
+  203  docker attach web-app
+  204  docker ps
+  205  docker ps -a
+  206  docker start 2938e9b5b463
+  207  docker ps -a
+  208  ls
+  209  docker ps
+  210  docker ps -a
+  211  ls
+  212  docker ps -a
+  213  docker ps -qa
+  214  docker rm $(docker ps -qa )
+  215  docker ps
+  216  docker ps -a
+  217  docker kill $(docker ps -qa )
+  218  docker rm $(docker ps -qa )
+```
