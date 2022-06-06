@@ -63,3 +63,39 @@
    75  ls
    76  history > README.md
 ```
+
+```
+ 98  docker pull nginx
+   99  docker image s
+  100  docker images
+  101  docker pull amitvashist7/nginx-web
+  102  docker pull amitvashist7/nginx-web:v1
+  103  docker images
+  104  docker pull amitvashist7/nginx-web:v2
+  105  docker images
+  106  docker inspect amitvashist7/nginx-web:v1
+  107  ls
+  108  history
+  109  docker images
+  110  docker delete amitvashist7/nginx-web:v2
+  111  docker rmi  amitvashist7/nginx-web:v2
+  112  docker images
+  113  docker rmi  amitvashist7/nginx-web:v1
+  114  docker images
+  115  docker pull   amitvashist7/nginx-web:v1
+  116  docker pull   amitvashist7/nginx-web:v2
+  117  docker images
+  118  docker rmi   amitvashist7/nginx-web:v1
+  119  docker images
+  120  docker inspect amitvashist7/nginx-web:v2
+```
+
+```
+  134  docker pull amitvashist7/apache-ex4
+  135  docker login
+  136  docker pull amitvashist7/apache-ex4
+  137  docker images
+  138  docker logout
+  139  docker images
+  140  docker pull amitvashist7/apache-ex4:20200107
+```
