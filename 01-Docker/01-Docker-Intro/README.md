@@ -1,15 +1,4 @@
 ```    
-    3  git clone https://github.com/amitvashisttech/docker-k8s-ericsson-25-April-2022.git
-    4  ls
-    5  mv docker-k8s-ericsson-25-April-2022 old 
-    6  ls
-    7  cd docker-kubernetes-ericsson-06-June-2022/
-    8  ls
-    9  cp -rf ../old/00-Vagrant-Setup , 
-   10  cp -rf ../old/00-Vagrant-Setup . 
-   11  ls
-   12  rm -rf , 
-   13  ls
    14  cd 00-Vagrant-Setup/
    15  ls
    16  vim README.md 
