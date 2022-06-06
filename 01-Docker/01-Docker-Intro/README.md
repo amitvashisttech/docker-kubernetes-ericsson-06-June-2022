@@ -100,8 +100,7 @@
   140  docker pull amitvashist7/apache-ex4:20200107
 ```
 
-
-er ps
+```
   152  docker ps -a
   153  docker run -it ubuntu
   154  docker ps
